@@ -22,7 +22,11 @@ for(int i = 0; i <5; i++){
 
 printf ("Final Test Average: %d", sum/count);
 
-
+/*
+Notes:
+1. works better if you do the arithmetic to calculate the average in the print section and not in
+the actual for statement
+*/
 
 
 
