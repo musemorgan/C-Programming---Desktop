@@ -2,11 +2,10 @@
 // Incomplete
 int main(){
 double salary;
-double* ptr = &salary;
-
-printf("Input Salary: ");
-scanf("%lf", ptr);
-printf("%p", *ptr);
+int* ptr = &salary;
+printf("Insert Salary: ");
+scanf("%p", ptr);
+printf("\n%.2lf", ptr); // prints value
 
 
 
