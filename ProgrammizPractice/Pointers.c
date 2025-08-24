@@ -3,7 +3,8 @@
 Project Purpose:
 1. takes input from a double variable salary
 2. Assigns the address of a salary to a double pointer
-3. uses the pointer to print the salary, increase the salary, and print the new salary*/
+3. uses the pointer to print the salary, increase the salary, and print the new salary
+*/
 int main(){
 double salary;
 double* ptr = &salary;
